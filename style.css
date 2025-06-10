@@ -21,13 +21,14 @@ header nav ul li{
 }
 header nav ul li a{
     text-decoration:none;
-    color:#333;
+    color:darkblue;
 }
 header nav ul li a: hover{
     color:darkblue;
 }
 header img{
     height:100%;
+	border:1px solid white;
 }
 section#banner{
 	height:350px;
