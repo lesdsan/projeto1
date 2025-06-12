@@ -31,6 +31,20 @@ header img{
 	border:1px solid white;
 }
 section#banner{
-	height:350px;
+	height:300px;
 	background:darkblue;
+}
+section#pelobranco img{
+text-align: center;
+height:100px;
+width:100%;
+box-shadow:5px 0px 0px 0px #00000030;
+}
+section#pelobranco .categoria{
+text-align:center;
+}
+section#pelobranco h2{
+font-size:35px;
+color:darkblue;
+text-align:center;
 }
