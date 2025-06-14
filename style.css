@@ -33,41 +33,47 @@ header img{
 section#banner{
 	height:350px;
 	background:darkblue;
-section#noticia{
-    width:
+}
+section#noticias{
+    width:1100px;
     height:auto;
-    margin:0;
+    margin:0 auto;
+}
+section#noticias ul{
+    display:flex;
+}
 section#noticias ul li{
     list-style:none;
     width:350px;
     height:350;
+    margin:5px;
 }
-section#noticia img{
+section#noticias img{
 text-align: center;
 height:150px;
 width:100%;
-box-shadow:0px 5px 0px 0px pink;
+box-shadow:0px 5px 0px 0px gray;
 }
-section#noticia .categoria{
+section#noticias .categoria{
 text-align:center;
 background:darkblue;
 color:#fff;
 display:block;
 padding:5px 0;
 }
-section#noticia h2{
+section#noticias h2{
 font-size:30px;
 color:darkblue;
 text-align:center;
 }
-section#noticia h3{
+section#noticias h3{
 text-align:center;
 font-size:35px;
 font-family:Arial;
 margin:25px 0;
 text-transform:uppercase;
 }
-section#noticia ul li a{
+section#noticias ul li a{
     text-align:center;
     font-size: 19px;
     color:white;
@@ -75,3 +81,12 @@ section#noticia ul li a{
     display:block;
     padding:5px 0;
 }
+section#noticias ul li a:hover{
+    background:darkblue;
+}
+section#noticias ul li p{
+text-align:center;
+margin:15px 0:
+color:pink;
+}
+
