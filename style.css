@@ -90,3 +90,15 @@ text-align:center;
 margin:15px 0:
 color:pink;
 }
+section#projetos ul{
+display:flex;
+text-align:center;
+}
+section#projetos ul li{
+list-style:none;
+margin:10px;
+}
+section#projetos ul li img{
+    width:300px;
+    height:0 auto;
+}
