@@ -32,7 +32,10 @@ header img{
 }
 section#banner{
 	height:350px;
-	background:url("https://ogimg.infoglobo.com.br/in/25024797-3d1-e8d/FT631A/shrek.jpg");
+	background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBSmUw9WH7YoK16PFmDC1rdcYU1n3o3o7rQA&s");
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:100%;
 }
 section#noticias{
     width:1100px;
@@ -93,12 +96,16 @@ color:pink;
 section#projetos ul{
 display:flex;
 text-align:center;
+width:1100px;
+margin: 0 auto;
 }
 section#projetos ul li{
 list-style:none;
 margin:10px;
+overflow:hidden;
 }
 section#projetos ul li img{
     width:300px;
     height:0 auto;
 }
+section
