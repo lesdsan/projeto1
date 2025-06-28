@@ -32,7 +32,7 @@ header img{
 }
 section#banner{
 	height:350px;
-	background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBSmUw9WH7YoK16PFmDC1rdcYU1n3o3o7rQA&s");
+	background:url("https://i.pinimg.com/736x/b3/dc/6c/b3dc6c815527fe49dfdbbfeb7ad4d1be.jpg");
 	background-repeat:no-repeat;
 	background-position:center center;
 	background-size:100%;
@@ -103,9 +103,16 @@ section#projetos ul li{
 list-style:none;
 margin:10px;
 overflow:hidden;
+height:200px;
+border:1px solid black;
+position:relative;
 }
 section#projetos ul li img{
-    width:300px;
-    height:0 auto;
+width:350px;
+margin:0 auto;
 }
-section
+section#projetos ul li h3{
+position:absolute;
+bottom:30px;
+color:white;
+}
