@@ -91,13 +91,14 @@ section#noticias ul li a:hover{
 section#noticias ul li p{
 text-align:center;
 margin:15px 0:
-color:pink;
+color:white;
 }
 section#projetos ul{
 display:flex;
 text-align:center;
 width:1100px;
 margin: 0 auto;
+justify-content:center;
 }
 section#projetos ul li{
 list-style:none;
@@ -106,13 +107,17 @@ overflow:hidden;
 height:200px;
 border:1px solid black;
 position:relative;
+border-radius:30px;
 }
 section#projetos ul li img{
-width:350px;
+width:400px;
 margin:0 auto;
+
 }
 section#projetos ul li h3{
 position:absolute;
 bottom:30px;
+background:blue;
 color:white;
+padding:10px;
 }
