@@ -121,3 +121,18 @@ background:blue;
 color:white;
 padding:10px;
 }
+footer{
+height:350px;
+background:blue;
+color:white;
+display:flex;
+}
+footer .logo{
+width:400px;
+}
+footer .logo img{
+width:100%;
+}
+footer ul li{
+line-height:50px;
+}
